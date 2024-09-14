@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    color: white;
+}
+.botao{
+    background-color: rgb(140, 245, 116);
+}
+.botaoreset{
+    background-color: rgb(255, 0, 0);
+}

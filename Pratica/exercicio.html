@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de cadastro</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
     <h1>Formulário de cadastro</h1>
     <form>
-        <label for="nome">Seu nome</label>
+        <label style="color: rgb(52, 7, 255);" for="nome">Seu nome</label>
         <input id="nome" type="text">
         <br />
         <label for="email">Seu e-mail</label>
@@ -17,8 +18,11 @@
         <label for="senha">Digite sua senha</label>
         <input id="senha" type="password">
         <br />
-        <button type="submit">
+        <button class="botao" type="submit">
             Enviar
+        </button>
+        <button class="botaoreset" type="reset">
+            Apagar dados
         </button>
     </form>
 </body>
