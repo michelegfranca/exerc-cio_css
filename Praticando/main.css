@@ -63,7 +63,7 @@ section h2,
 }
 
 .articles article a {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 8px;
     display: inline-block;
@@ -103,4 +103,8 @@ section h2 {
 
 #sports {
     background-color: antiquewhite;
+}
+
+#technology {
+    background-color: rgba(139, 0, 139, 0.349)
 }
